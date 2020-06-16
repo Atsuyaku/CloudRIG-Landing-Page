@@ -10,26 +10,24 @@ import Vue from 'vue' import Vuetify from 'vuetify/lib'
         >
             <v-list>
                 <template v-for="(item, index) in items">
-                    <v-list-tile :key="index">
-                        <v-list-tile-content>
-                            {{ item.title }}
-                        </v-list-tile-content>
-                    </v-list-tile>
                     <v-divider :key="`divider-${index}`"></v-divider>
                 </template>
             </v-list>
         </v-navigation-drawer>
-        <v-toolbar app color="indigo lighten-1" dark>
-            <v-toolbar-side-icon
+        <v-toolbar  color="indigo lighten-1" dark>
+            <v-app-bar-nav-icon
                 class="hidden-md-and-up"
-                @click="drawer = !drawer"
-            ></v-toolbar-side-icon>
+                @click="drawer = !drawer">
+            </v-app-bar-nav-icon>
+
             <v-spacer class="hidden-md-and-up"></v-spacer>
             <v-toolbar-title>{{ appTitle }}</v-toolbar-title>
-            <v-btn flat class="hidden-sm-and-down">Menu</v-btn>
             <v-spacer class="hidden-sm-and-down"></v-spacer>
-            <v-btn flat class="hidden-sm-and-down">Sign in</v-btn>
-            <v-btn color="blue-grey lighten-4" class="hidden-sm-and-down"
+            <router-link tag="span" to="/AboutUs"><v-btn text class="hidden-sm-and-down ">About us</v-btn></router-link>
+            <v-btn text class="hidden-sm-and-down ">Features</v-btn>
+            <v-btn text class="hidden-sm-and-down ">Pricing</v-btn>
+            <v-btn text class="hidden-sm-and-down">Sign in</v-btn>
+            <v-btn text class="hidden-sm-and-down"
                 >Register</v-btn
             >
         </v-toolbar>
@@ -41,7 +39,7 @@ export default {
     name: 'AppNavigation',
     data() {
         return {
-            appTitle: 'CLOUDRIG',
+            appTitle: 'CloudRIG',
             drawer: false,
             items: [
                 { title: 'Menu' },
@@ -53,4 +51,8 @@ export default {
 };
 </script>
 
-<style scoped></style>
+<style scoped>
+    span {
+        text-decoration: none;
+    }
+</style>
