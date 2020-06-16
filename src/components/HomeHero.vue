@@ -32,8 +32,8 @@
             <v-row>
                 <v-col cols="12">
                     <v-btn fab class="mt-5 grey darken-4">
-                        <v-icon class="material-icons" large color="white">
-                            keyboard_arrow_down
+                        <v-icon large color="blue darken-4">
+                            fas fa-angle-down
                         </v-icon>
                     </v-btn>
                 </v-col>

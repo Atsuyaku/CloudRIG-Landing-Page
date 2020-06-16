@@ -1,11 +1,13 @@
 <template>
     <span>
-        sdfg
+        <HomeDetails></HomeDetails>
     </span>
 </template>
 
 <script>
+    import HomeDetails from "../components/HomeDetails";
     export default {
-        name: 'About'
+        name: 'About',
+        components: {HomeDetails}
     };
 </script>
