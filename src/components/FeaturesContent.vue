@@ -8,8 +8,7 @@
                             <v-card color="rgb(44,62,80,0.9)">
                                 <div
                                     class="display-3 pa-2 mt-3 white--text font-weight-bold text-md-center"
-                                    contain
-                                >
+                                    contain>
                                     Features
                                 </div>
                             </v-card>
