@@ -39,16 +39,7 @@ import Vue from 'vue' import Vuetify from 'vuetify/lib'
                     >Pricing</v-btn
                 ></router-link
             >
-            <router-link tag="span" to="/Sign_in"
-                ><v-btn text class="hidden-sm-and-down"
-                    >Sign in</v-btn
-                ></router-link
-            >
-            <router-link tag="span" to="/Register"
-                ><v-btn text class="hidden-sm-and-down"
-                    >Register</v-btn
-                ></router-link
-            >
+
         </v-toolbar>
     </span>
 </template>
