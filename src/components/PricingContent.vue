@@ -1,8 +1,7 @@
 <template>
-    <v-parallax height="1250" dark src="https://i.redd.it/lfndtoirttvx.jpg">
-        <v-container fluid>
+        <v-container fluid class="PricingContent">
             <v-container grid-list-lg>
-                <v-card dark color="rgb(44,62,80,0.9)" class="pa-4">
+                <v-card dark color="rgb(44,62,80,0.9)" class="pa-4" flat>
                     <v-layout column>
                         <v-flex
                             class="display-2 font-weight-white white--text text-xs-center my-5"
@@ -117,7 +116,6 @@
                 </v-card>
             </v-container>
         </v-container>
-    </v-parallax>
 </template>
 
 <script>
@@ -127,4 +125,8 @@ export default {
 };
 </script>
 
-<style scoped></style>
+<style scoped>
+    .PricingContent{
+        background-color: rgb(44, 62, 80);
+    }
+</style>

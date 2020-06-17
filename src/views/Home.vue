@@ -2,7 +2,6 @@
     <span>
         <home-hero></home-hero>
         <home-details></home-details>
-        <v-divider></v-divider>
         <Footer></Footer>
     </span>
 </template>
