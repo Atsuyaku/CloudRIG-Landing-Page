@@ -3,8 +3,9 @@
         <v-layout justify-center align-center column pa-10>
             <v-row no-gutters align="center">
                 <v-col offset="2" cols="1">
-                    <v-img min-height="300px"
-                           min-width="300px"
+                    <v-img
+                        min-height="300px"
+                        min-width="300px"
                         contain
                         src="https://www.cloudrig.io/img/cloudrig-logo.png"
                     ></v-img>

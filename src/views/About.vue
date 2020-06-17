@@ -6,10 +6,10 @@
 </template>
 
 <script>
-    import HomeDetails from "../components/HomeDetails";
-    import Footer from "../components/Footer";
-    export default {
-        name: 'About',
-        components: {Footer, HomeDetails}
-    };
+import HomeDetails from '../components/HomeDetails';
+import Footer from '../components/Footer';
+export default {
+    name: 'About',
+    components: { Footer, HomeDetails }
+};
 </script>

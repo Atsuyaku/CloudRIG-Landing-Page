@@ -1,13 +1,15 @@
 <template>
-    <v-container fluid class="indigo lighten-1">
+    <v-card color="rgb(44,62,80)">
+    <v-container fluid>
+
         <v-container grid-list-lg>
-            <v-layout column>
+            <v-layout column white--text>
                 <v-flex
-                        class="display-2 font-weight-black black--text text-xs-center my-5"
-                >How It Works</v-flex
+                    class="display-2 font-weight-white white--text text-xs-center my-5"
+                    >About us</v-flex
                 >
                 <v-flex>
-                    <div class="headline mt-3 black--text font-weight-bold">
+                    <div class="headline mt-3 white--text font-weight-bold">
                         Lorem ipsum
                     </div>
                     <p class="subheading mt-3">
@@ -25,7 +27,7 @@
                     </p>
                 </v-flex>
                 <v-flex>
-                    <div class="headline mt-3 black--text font-weight-bold">
+                    <div class="headline mt-3 white--text font-weight-bold">
                         Lorem ipsum
                     </div>
                     <p class="subheading mt-3">
@@ -78,7 +80,7 @@
                     </p>
                 </v-flex>
                 <v-flex>
-                    <div class="headline mt-3 black--text font-weight-bold">
+                    <div class="headline mt-3 white--text font-weight-bold">
                         Lorem ipsum
                     </div>
                     <p class="subheading mt-3">
@@ -98,13 +100,15 @@
                 </v-flex>
             </v-layout>
         </v-container>
+
     </v-container>
+    </v-card>
 </template>
 
 <script>
-    export default {
-        name: 'HomeDetails'
-    };
+export default {
+    name: 'HomeDetails'
+};
 </script>
 
 <style scoped></style>

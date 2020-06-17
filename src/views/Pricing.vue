@@ -1,19 +1,17 @@
 <template>
     <span>
-        <HomeDetails></HomeDetails>
+        <PricingContent></PricingContent>
         <Footer></Footer>
     </span>
 </template>
 
 <script>
-    import HomeDetails from "../components/HomeDetails";
-    import Footer from "../components/Footer";
-    export default {
-        name: "Pricing",
-        components: {Footer, HomeDetails}
-    }
+import Footer from '../components/Footer';
+import PricingContent from '../components/PricingContent';
+export default {
+    name: 'Pricing',
+    components: { PricingContent, Footer }
+};
 </script>
 
-<style scoped>
-
-</style>
+<style scoped></style>

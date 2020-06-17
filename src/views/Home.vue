@@ -10,11 +10,10 @@
 <script>
 import HomeHero from '../components/HomeHero';
 import HomeDetails from '../components/HomeDetails';
-import HomePlans from "../components/HomePlans";
-import Footer from "../components/Footer";
+import HomePlans from '../components/HomePlans';
+import Footer from '../components/Footer';
 export default {
     name: 'Home',
-    components: {Footer, HomePlans, HomeDetails, HomeHero }
+    components: { Footer, HomePlans, HomeDetails, HomeHero }
 };
 </script>
-
