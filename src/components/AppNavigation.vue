@@ -14,22 +14,22 @@ import Vue from 'vue' import Vuetify from 'vuetify/lib'
                 </template>
             </v-list>
         </v-navigation-drawer>
-        <v-toolbar  color="indigo lighten-1" dark>
+        <v-toolbar  color="rgb(44, 62, 80)" dark>
             <v-app-bar-nav-icon
                 class="hidden-md-and-up"
                 @click="drawer = !drawer">
             </v-app-bar-nav-icon>
 
             <v-spacer class="hidden-md-and-up"></v-spacer>
-            <v-toolbar-title>{{ appTitle }}</v-toolbar-title>
+            <router-link tag="span" to="/"><v-btn text><v-toolbar-title>{{ appTitle }}</v-toolbar-title></v-btn></router-link>
             <v-spacer class="hidden-sm-and-down"></v-spacer>
             <router-link tag="span" to="/AboutUs"><v-btn text class="hidden-sm-and-down ">About us</v-btn></router-link>
-            <v-btn text class="hidden-sm-and-down ">Features</v-btn>
-            <v-btn text class="hidden-sm-and-down ">Pricing</v-btn>
-            <v-btn text class="hidden-sm-and-down">Sign in</v-btn>
-            <v-btn text class="hidden-sm-and-down"
+            <router-link tag="span" to="/Features"><v-btn text class="hidden-sm-and-down ">Features</v-btn></router-link>
+            <router-link tag="span" to="/Pricing"><v-btn text class="hidden-sm-and-down ">Pricing</v-btn></router-link>
+            <router-link tag="span" to="/Sign_in"><v-btn text class="hidden-sm-and-down">Sign in</v-btn></router-link>
+            <router-link tag="span" to="/Register"><v-btn text class="hidden-sm-and-down"
                 >Register</v-btn
-            >
+            ></router-link>
         </v-toolbar>
     </span>
 </template>
