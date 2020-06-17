@@ -8,7 +8,10 @@
                         >About us</v-flex
                     >
                     <v-flex>
-                        <div class="headline mt-3 white--text font-weight-bold" id="down">
+                        <div
+                            class="headline mt-3 white--text font-weight-bold"
+                            id="down"
+                        >
                             Lorem ipsum
                         </div>
                         <p class="subheading mt-3">

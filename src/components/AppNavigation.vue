@@ -39,11 +39,11 @@ import Vue from 'vue' import Vuetify from 'vuetify/lib'
                     >Pricing</v-btn
                 ></router-link
             >
-                    <v-btn text color="rgb(44, 62, 80)">
-                        <v-icon large color="white">
-                            far fa-user-circle
-                        </v-icon>
-                    </v-btn>
+            <v-btn text color="rgb(44, 62, 80)">
+                <v-icon large color="white">
+                    far fa-user-circle
+                </v-icon>
+            </v-btn>
         </v-toolbar>
     </span>
 </template>

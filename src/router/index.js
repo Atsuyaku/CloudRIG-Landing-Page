@@ -26,8 +26,7 @@ const routes = [
         path: '/Pricing',
         name: 'Pricing',
         component: Pricing
-    },
-
+    }
 ];
 
 const router = new VueRouter({

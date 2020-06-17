@@ -32,7 +32,11 @@
             </v-row>
             <v-row>
                 <v-col cols="12">
-                    <v-btn fab class="mt-5 grey darken-4" @click="$vuetify.goTo(1000)">
+                    <v-btn
+                        fab
+                        class="mt-5 grey darken-4"
+                        @click="$vuetify.goTo(1000)"
+                    >
                         <v-icon large color="blue darken-4">
                             fas fa-angle-down
                         </v-icon>
