@@ -2,7 +2,7 @@
     <span>
         <home-hero></home-hero>
         <home-details></home-details>
-        <home-plans></home-plans>
+        <v-divider></v-divider>
         <Footer></Footer>
     </span>
 </template>
@@ -10,10 +10,9 @@
 <script>
 import HomeHero from '../components/HomeHero';
 import HomeDetails from '../components/HomeDetails';
-import HomePlans from '../components/HomePlans';
 import Footer from '../components/Footer';
 export default {
     name: 'Home',
-    components: { Footer, HomePlans, HomeDetails, HomeHero }
+    components: { Footer, HomeDetails, HomeHero }
 };
 </script>
