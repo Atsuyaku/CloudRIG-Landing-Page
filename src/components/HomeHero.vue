@@ -32,6 +32,17 @@
             </v-row>
             <v-row>
                 <v-col cols="12">
+                    <router-link tag="span" to="/Usage">
+                    <v-btn
+
+                            class="orange display-2 white--text font-weight-bold text-md-center" min-height=80
+                    >Start now!
+                    </v-btn>
+                    </router-link>
+                </v-col>
+            </v-row>
+            <v-row>
+                <v-col cols="12">
                     <v-btn
                         fab
                         class="mt-5 grey darken-4"
@@ -59,5 +70,8 @@ export default {
     background-size: cover;
     width: 100%;
     height: 100%;
+}
+.v-btn{
+    text-indent: initial;
 }
 </style>
