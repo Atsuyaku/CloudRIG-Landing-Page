@@ -1,6 +1,5 @@
 <template>
-
-    <v-footer dark color="rgb(33, 37, 41)" >
+    <v-footer dark color="rgb(33, 37, 41)">
         <v-card-text class="py-2 white--text text-center">
             Made with &#10084; in Toulouse
         </v-card-text>

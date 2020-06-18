@@ -31,17 +31,35 @@ import Vue from 'vue' import Vuetify from 'vuetify/lib'
 
             <router-link tag="span" to="/Features"
                 ><v-btn text class="hidden-sm-and-down "
-                    >Features</v-btn
+                    >FEATURES</v-btn
                 ></router-link
             >
             <router-link tag="span" to="/Pricing"
                 ><v-btn text class="hidden-sm-and-down "
-                    >Pricing</v-btn
+                    >PRICING</v-btn
                 ></router-link
+            >
+
+            <router-link tag="span" to="/Usage"
+            ><v-btn text class="hidden-sm-and-down "
+            >USAGE</v-btn
+            ></router-link
             >
             <v-btn text color="rgb(44, 62, 80)">
                 <v-icon large color="white">
                     far fa-user-circle
+                </v-icon>
+            </v-btn>
+
+
+            <v-btn text color="rgb(44, 62, 80)" href="https://github.com">
+                <v-icon large color="white">
+                    fab fa-github
+                </v-icon>
+            </v-btn>
+            <v-btn text color="rgb(44, 62, 80)" href="https://patreon.com">
+                <v-icon large color="white">
+                    fab fa-patreon
                 </v-icon>
             </v-btn>
         </v-toolbar>
@@ -68,5 +86,8 @@ export default {
 <style scoped>
 span {
     text-decoration: none;
+}
+.v-btn {
+    text-transform: none;
 }
 </style>

@@ -16,7 +16,7 @@
                     <div
                         class="display-4 font-weight-black orange--text text-xs-center"
                     >
-                        cloudRIG
+                        CloudRIG
                     </div>
                     <div
                         class="display-1 font-weight-bold orange--text text-xs-center"

@@ -4,8 +4,8 @@
             <v-card dark color="rgb(44,62,80,0.9)" class="pa-4" flat>
                 <v-layout column>
                     <v-flex
-                        class="display-2 font-weight-white white--text text-xs-center my-5"
-                        >Pricing</v-flex
+                            class="display-2 font-weight-white white--text text-xs-center my-5"
+                    >Usage</v-flex
                     >
                     <v-flex>
                         <div class="headline mt-3 white--text font-weight-bold">
@@ -109,14 +109,14 @@
 </template>
 
 <script>
-export default {
-    name: 'PricingContent',
-    components: {}
-};
+    export default {
+        name: 'UsageContent',
+        components: {}
+    };
 </script>
 
 <style scoped>
-.PricingContent {
-    background-color: rgb(44, 62, 80);
-}
+    .PricingContent {
+        background-color: rgb(44, 62, 80);
+    }
 </style>
