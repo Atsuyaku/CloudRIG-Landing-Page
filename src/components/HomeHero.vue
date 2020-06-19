@@ -31,13 +31,20 @@
                 </v-col>
             </v-row>
             <v-row>
-                <v-col cols="12">
-                    <router-link tag="span" to="/Usage">
+                <v-col cols="6">
                     <v-btn
-
-                            class="display-2 white--text font-weight-bold text-md-center" min-height=80 color="rgb(237,76,103)"
-                    >Start now!
+                            class="text-h5 white--text" min-height="60" min-width="250" color="rgb(237,76,103)"
+                            href="https://github.com/cloudrig/CloudRIG/releases"
+                    ><i class="fa fa-download mr-3"></i>Download
                     </v-btn>
+                </v-col>
+                <v-col cols="6">
+                    <router-link tag="span" to="/Usage">
+                        <v-btn
+
+                                class="text-h5 white--text" min-height="60" min-width="250" color="rgb(237,76,103)"
+                        >Beginner guide
+                        </v-btn>
                     </router-link>
                 </v-col>
             </v-row>
@@ -78,5 +85,8 @@ export default {
 }
 .v-btn{
     text-indent: initial;
+    text-transform: none;
+
+
 }
 </style>
