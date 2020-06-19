@@ -7,6 +7,7 @@ import Vue from 'vue' import Vuetify from 'vuetify/lib'
             class="blue-grey lighten-2"
             dark
             disable-resize-watcher
+
         >
             <v-list>
                 <template v-for="(item, index) in items">
@@ -30,7 +31,7 @@ import Vue from 'vue' import Vuetify from 'vuetify/lib'
             <v-spacer class="hidden-sm-and-down"></v-spacer>
 
             <router-link tag="span" to="/Features"
-                ><v-btn text class="hidden-sm-and-down "
+                ><v-btn text class="hidden-sm-and-down"
                     >FEATURES</v-btn
                 ></router-link
             >

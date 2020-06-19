@@ -1,5 +1,5 @@
 <template>
-    <v-card color="white">
+    <v-card color="white" flat>
         <v-container fluid>
             <v-container grid-list-lg>
                 <v-layout column black--text>

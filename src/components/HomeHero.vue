@@ -14,17 +14,17 @@
 
                 <v-col offset="3" cols="1">
                     <div
-                        class="display-4 font-weight-black orange--text text-xs-center"
+                        class="display-4 font-weight-black white--text text-xs-center"
                     >
                         CloudRIG
                     </div>
                     <div
-                        class="display-1 font-weight-bold orange--text text-xs-center"
+                        class="display-1 font-weight-bold white--text text-xs-center"
                     >
                         powered by
                     </div>
                     <div
-                        class="display-4 font-weight-black orange--text text-xs-center"
+                        class="display-4 font-weight-black white--text text-xs-center"
                     >
                         parsec
                     </div>
@@ -35,7 +35,7 @@
                     <router-link tag="span" to="/Usage">
                     <v-btn
 
-                            class="orange display-2 white--text font-weight-bold text-md-center" min-height=80
+                            class="display-2 white--text font-weight-bold text-md-center" min-height=80 color="rgb(237,76,103)"
                     >Start now!
                     </v-btn>
                     </router-link>
@@ -66,8 +66,13 @@ export default {
 
 <style scoped>
 .home-hero {
+    background-image: url("../assets/cloud.png");
+
     background-color: rgb(52, 73, 94);
-    background-size: cover;
+    background-position-x:50% ;
+    background-position-y:100% ;
+    background-repeat-y: no-repeat;
+    background-repeat-x: repeat;
     width: 100%;
     height: 100%;
 }
