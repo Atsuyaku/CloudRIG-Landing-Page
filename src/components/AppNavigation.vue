@@ -14,7 +14,7 @@ import Vue from 'vue' import Vuetify from 'vuetify/lib'
                 </template>
             </v-list>
         </v-navigation-drawer>
-        <v-toolbar color="rgb(33, 37, 41)" dark>
+        <v-toolbar color="rgb(44, 62, 80)" dark>
             <v-app-bar-nav-icon
                 class="hidden-md-and-up"
                 @click="drawer = !drawer"
@@ -52,7 +52,7 @@ import Vue from 'vue' import Vuetify from 'vuetify/lib'
             </v-btn>
 
 
-            <v-btn text color="rgb(44, 62, 80)" href="https://github.com">
+            <v-btn text color="rgb(44, 62, 80)" href="https://github.com/cloudrig/CloudRIG">
                 <v-icon large color="white">
                     fab fa-github
                 </v-icon>

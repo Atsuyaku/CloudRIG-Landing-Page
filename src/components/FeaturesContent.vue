@@ -4,7 +4,7 @@
             <v-layout column>
                 <v-row>
                     <v-col offset="4" cols="4">
-                        <v-card color="rgb(44,62,80,0.9)" flat>
+                        <v-card color="rgb(52, 73, 94)" flat>
                             <div
                                 class="display-3 pa-2 mt-3 white--text font-weight-bold text-md-center"
                                 contain
@@ -15,7 +15,7 @@
                     </v-col>
                 </v-row>
                 <v-row class="pa-1">
-                    <v-card color="rgb(44,62,80,0.9)" flat>
+                    <v-card color="rgb(52, 73, 94)" flat>
                         <v-row>
                             <v-col cols="6">
                                 <v-card-text class="px-0">
@@ -57,7 +57,7 @@
                     </v-card>
                 </v-row>
                 <v-row class="pa-1">
-                    <v-card color="rgb(44,62,80,0.9)" flat>
+                    <v-card color="rgb(52, 73, 94)" flat>
                         <v-row>
                             <v-col cols="6">
                                 <v-card-text class="px-0 white--text">
@@ -100,7 +100,7 @@
                 </v-row>
 
                 <v-row class="pa-1">
-                    <v-card color="rgb(44,62,80,0.9)" flat>
+                    <v-card color="rgb(52, 73, 94)" flat>
                         <v-row>
                             <v-col cols="6">
                                 <v-card-text class="px-0">
@@ -154,6 +154,6 @@ export default {
 
 <style scoped>
 .FeaturesContent {
-    background-color: rgb(44, 62, 80);
+    background-color: rgb(52, 73, 94);
 }
 </style>

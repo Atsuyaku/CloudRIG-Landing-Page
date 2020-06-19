@@ -66,7 +66,7 @@ export default {
 
 <style scoped>
 .home-hero {
-    background: url('https://i.redd.it/lfndtoirttvx.jpg');
+    background-color: rgb(52, 73, 94);
     background-size: cover;
     width: 100%;
     height: 100%;

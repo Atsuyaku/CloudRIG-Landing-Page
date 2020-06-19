@@ -1,15 +1,15 @@
 <template>
-    <v-card color="rgb(44,62,80)">
+    <v-card color="white">
         <v-container fluid>
             <v-container grid-list-lg>
-                <v-layout column white--text>
+                <v-layout column black--text>
                     <v-flex
-                        class="display-2 font-weight-white white--text text-xs-center my-5"
+                        class="display-2 font-weight-white black--text text-xs-center my-5"
                         >About us</v-flex
                     >
                     <v-flex>
                         <div
-                            class="headline mt-3 white--text font-weight-bold"
+                            class="headline mt-3 black--text font-weight-bold"
                             id="down"
                         >
                             Lorem ipsum
@@ -30,7 +30,7 @@
                         </p>
                     </v-flex>
                     <v-flex>
-                        <div class="headline mt-3 white--text font-weight-bold">
+                        <div class="headline mt-3 black--text font-weight-bold">
                             Lorem ipsum
                         </div>
                         <p class="subheading mt-3">
@@ -86,7 +86,7 @@
                         </p>
                     </v-flex>
                     <v-flex>
-                        <div class="headline mt-3 white--text font-weight-bold">
+                        <div class="headline mt-3 black--text font-weight-bold">
                             Lorem ipsum
                         </div>
                         <p class="subheading mt-3">
