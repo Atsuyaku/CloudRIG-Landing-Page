@@ -1,109 +1,62 @@
 <template>
-    <v-container fluid class="PricingContent">
-        <v-container grid-list-lg>
-            <v-card dark color="rgb(52, 73, 94)" class="pa-4" flat>
-                <v-layout column>
-                    <v-flex
-                            class="display-2 font-weight-white white--text text-xs-center my-5"
-                    >Usage</v-flex
-                    >
-                    <v-flex>
-                        <div class="headline mt-3 white--text font-weight-bold">
-                            Lorem ipsum
-                        </div>
-                        <p class="subheading mt-3">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing
-                            elit. Cras pulvinar risus quis mauris interdum, in
-                            euismod nibh pretium. Etiam pulvinar tincidunt
-                            dapibus. Quisque sollicitudin, mauris a consequat
-                            consectetur, turpis nisl sollicitudin enim, id
-                            consectetur neque neque nec metus. Pellentesque
-                            dolor nisi, vulputate quis lobortis ac, tincidunt et
-                            quam. Mauris pulvinar blandit nisi nec mattis.
-                            Aliquam accumsan ut sem eget efficitur. Vivamus in
-                            tortor gravida eros laoreet condimentum nec vel dui.
-                            Nullam quam massa, ultrices eget tincidunt a,
-                            pulvinar ac libero.
-                        </p>
-                    </v-flex>
-                    <v-flex>
-                        <div class="headline mt-3 white--text font-weight-bold">
-                            Lorem ipsum
-                        </div>
-                        <p class="subheading mt-3">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing
-                            elit. Cras pulvinar risus quis mauris interdum, in
-                            euismod nibh pretium. Etiam pulvinar tincidunt
-                            dapibus. Quisque sollicitudin, mauris a consequat
-                            consectetur, turpis nisl sollicitudin enim, id
-                            consectetur neque neque nec metus. Pellentesque
-                            dolor nisi, vulputate quis lobortis ac, tincidunt et
-                            quam. Mauris pulvinar blandit nisi nec mattis.
-                            Aliquam accumsan ut sem eget efficitur. Vivamus in
-                            tortor gravida eros laoreet condimentum nec vel dui.
-                            Nullam quam massa, ultrices eget tincidunt a,
-                            pulvinar ac libero.
-                        </p>
+    <v-container class="UsageContent" >
+        <v-container grid-list-md>
+            <v-layout column>
+                <v-row>
+                    <v-col offset="4" cols="4">
+                        <v-card flat style="border-radius:0px">
+                            <div
+                                    class="display-3 pa-2 mt-3 white--text font-weight-bold text-md-center"
+                                    contain
+                                    style="background-color: rgb(52, 73, 94)"
 
-                        <p class="subheading mt-3">
-                            Nullam nec massa eu est fringilla lobortis. Praesent
-                            in enim in justo blandit varius. Cras placerat arcu
-                            in sapien rhoncus aliquet. Sed interdum tortor et
-                            tincidunt condimentum. Etiam consequat mi leo, in
-                            suscipit odio scelerisque molestie. Nam et purus
-                            consequat, iaculis augue vel, sagittis ligula.
-                            Vestibulum aliquet vulputate erat. Phasellus id
-                            mauris mauris. Nunc a maximus dolor. Curabitur ut
-                            vestibulum arcu. Curabitur non lacus justo. Cras
-                            varius a magna in semper. Nulla eros ante,
-                            consectetur faucibus sapien eu, rhoncus imperdiet
-                            dui. Sed viverra iaculis nunc, id pulvinar massa
-                            egestas vitae.
-                        </p>
+                            >
+                                Usage
+                            </div>
+                        </v-card>
+                    </v-col>
+                </v-row>
+                <v-row class="pa-1">
+                    <v-card color="rgb(52, 73, 94)" flat>
+                        <v-row>
+                            <v-col cols="6">
+                                <v-carousel>
+                                    <v-carousel-item
+                                            max-width="700"
+                                            v-for="(item,i) in items"
+                                            :key="i"
+                                            :src="item.src"
+                                            reverse-transition="fade-transition"
+                                            transition="fade-transition"
+                                    ></v-carousel-item>
+                                </v-carousel>
+                            </v-col>
+                            <v-col cols="6">
+                                <v-card-text class="px-0 white--text">
+                                    <div
+                                            class="headline pa-2 mt-3 white--text font-weight-bold"
+                                    >
+                                        Lorem ipsum
+                                    </div>
+                                    <p class="subheading mt-3 pa-3">
+                                        Lorem ipsum dolor sit amet, consectetur
+                                        adipiscing elit. Cras pulvinar risus
+                                        quis mauris interdum, in euismod nibh
+                                        pretium. Etiam pulvinar tincidunt
+                                        dapibus. Quisque sollicitudin, mauris a
+                                        consequat consectetur, turpis nisl
+                                        sollicitudin enim, id consectetur neque
+                                        neque nec metus. Pellentesque dolor
+                                        nisi, vulputate quis lobortis ac,
+                                        ti
+                                    </p>
+                                </v-card-text>
+                            </v-col>
+                        </v-row>
+                    </v-card>
+                </v-row>
+            </v-layout>
 
-                        <p class="subheading mt-3">
-                            Aenean erat metus, imperdiet eget nisl laoreet,
-                            venenatis ultricies ante. In interdum ante vel
-                            dictum ullamcorper. Pellentesque habitant morbi
-                            tristique senectus et netus et malesuada fames ac
-                            turpis egestas. Integer sit amet gravida diam.
-                            Aliquam in tempor metus. Fusce pellentesque pharetra
-                            sem, et luctus justo tempor dictum. Ut feugiat est
-                            sed tristique egestas. Nullam posuere a nunc in
-                            blandit. Vestibulum ante ipsum primis in faucibus
-                            orci luctus et ultrices posuere cubilia Curae;
-                            Suspendisse laoreet ultrices eros, nec malesuada
-                            enim semper sit amet. Maecenas efficitur consectetur
-                            accumsan. Etiam in aliquam turpis, ut pharetra
-                            nulla. Vestibulum malesuada, nulla id elementum
-                            cursus, nibh dui rhoncus felis, suscipit mattis
-                            felis enim sed ex. Pellentesque scelerisque aliquam
-                            lorem, vel mattis nibh tincidunt ac. Suspendisse ac
-                            nibh sit amet lacus ullamcorper maximus.
-                        </p>
-                    </v-flex>
-                    <v-flex>
-                        <div class="headline mt-3 white--text font-weight-bold">
-                            Lorem ipsum
-                        </div>
-                        <p class="subheading mt-3">
-                            Nullam nec massa eu est fringilla lobortis. Praesent
-                            in enim in justo blandit varius. Cras placerat arcu
-                            in sapien rhoncus aliquet. Sed interdum tortor et
-                            tincidunt condimentum. Etiam consequat mi leo, in
-                            suscipit odio scelerisque molestie. Nam et purus
-                            consequat, iaculis augue vel, sagittis ligula.
-                            Vestibulum aliquet vulputate erat. Phasellus id
-                            mauris mauris. Nunc a maximus dolor. Curabitur ut
-                            vestibulum arcu. Curabitur non lacus justo. Cras
-                            varius a magna in semper. Nulla eros ante,
-                            consectetur faucibus sapien eu, rhoncus imperdiet
-                            dui. Sed viverra iaculis nunc, id pulvinar massa
-                            egestas vitae.
-                        </p>
-                    </v-flex>
-                </v-layout>
-            </v-card>
         </v-container>
     </v-container>
 </template>
@@ -111,12 +64,20 @@
 <script>
     export default {
         name: 'UsageContent',
-        components: {}
+        data () {
+            return {
+
+                items: [
+                    {src :'https://user-images.githubusercontent.com/348091/42406162-814bc76a-81e5-11e8-800d-84fb5e84a413.png'},
+                    {src :'https://user-images.githubusercontent.com/348091/42406163-817fb4d0-81e5-11e8-979f-1918732aca61.png'},
+                    {src :'https://user-images.githubusercontent.com/348091/42406160-80e67fea-81e5-11e8-9c81-31cb07548666.png'},
+                    {src :'https://user-images.githubusercontent.com/348091/42418364-18d057c0-82e2-11e8-9877-c58a3120c0dd.png'},
+                    {src :'https://user-images.githubusercontent.com/348091/42418357-ef8cd33e-82e1-11e8-838c-087e5422c0d5.png'},
+                ],
+            }
+        },
     };
 </script>
 
 <style scoped>
-    .PricingContent {
-        background-color: rgb(52, 73, 94);
-    }
 </style>

@@ -1,6 +1,7 @@
 <template>
-    <v-container fluid fill-height class="home-hero" style="max-height: 100vh;">
+    <v-container fill-height class="home-hero" style="max-height: 100vh;">
         <v-layout justify-center align-center column pa-10>
+
             <v-row no-gutters align="center">
                 <v-col offset="2" cols="1">
                     <v-img
@@ -73,9 +74,7 @@ export default {
 
 <style scoped>
 .home-hero {
-    background-image: url("../assets/cloud.png");
 
-    background-color: rgb(52, 73, 94);
     background-position-x:50% ;
     background-position-y:100% ;
     background-repeat-y: no-repeat;

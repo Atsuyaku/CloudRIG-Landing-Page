@@ -87,6 +87,7 @@ export default {
 <style scoped>
 span {
     text-decoration: none;
+
 }
 .v-btn {
     text-transform: none;

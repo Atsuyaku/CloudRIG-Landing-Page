@@ -1,159 +1,171 @@
 <template>
-    <v-container fluid class="FeaturesContent">
-        <v-container grid-list-md>
-            <v-layout column>
-                <v-row>
-                    <v-col offset="4" cols="4">
-                        <v-card color="rgb(52, 73, 94)" flat>
-                            <div
-                                class="display-3 pa-2 mt-3 white--text font-weight-bold text-md-center"
-                                contain
-                            >
-                                Features
-                            </div>
-                        </v-card>
-                    </v-col>
-                </v-row>
-                <v-row class="pa-1">
-                    <v-card color="rgb(52, 73, 94)" flat>
-                        <v-row>
-                            <v-col cols="6">
-                                <v-card-text class="px-0">
-                                    <v-img
-                                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Computer_icon.png/640px-Computer_icon.png"
-                                        contain
-                                        aspect-ratio="2.5"
-                                    ></v-img>
-                                </v-card-text>
-                            </v-col>
-                            <v-col cols="6">
-                                <v-card-text class="px-0 white--text">
-                                    <div
-                                        class="headline pa-2 mt-3 white--text font-weight-bold"
-                                    >
-                                        Lorem ipsum1
-                                    </div>
-                                    <p class="subheading mt-3 pa-3">
-                                        Lorem ipsum dolor sit amet, consectetur
-                                        adipiscing elit. Cras pulvinar risus
-                                        quis mauris interdum, in euismod nibh
-                                        pretium. Etiam pulvinar tincidunt
-                                        dapibus. Quisque sollicitudin, mauris a
-                                        consequat consectetur, turpis nisl
-                                        sollicitudin enim, id consectetur neque
-                                        neque nec metus. Pellentesque dolor
-                                        nisi, vulputate quis lobortis ac,
-                                        tincidunt et quam. Mauris pulvinar
-                                        blandit nisi nec mattis. Aliquam
-                                        accumsan ut sem eget efficitur. Vivamus
-                                        in tortor gravida eros laoreet
-                                        condimentum nec vel dui. Nullam quam
-                                        massa, ultrices eget tincidunt a,
-                                        pulvinar ac libero.
-                                    </p>
-                                </v-card-text>
-                            </v-col>
-                        </v-row>
-                    </v-card>
-                </v-row>
-                <v-row class="pa-1">
-                    <v-card color="rgb(52, 73, 94)" flat>
-                        <v-row>
-                            <v-col cols="6">
-                                <v-card-text class="px-0 white--text">
-                                    <div
-                                        class="headline pa-2 mt-3 white--text font-weight-bold"
-                                    >
-                                        Lorem ipsum1
-                                    </div>
-                                    <p class="subheading mt-3 pa-3">
-                                        Lorem ipsum dolor sit amet, consectetur
-                                        adipiscing elit. Cras pulvinar risus
-                                        quis mauris interdum, in euismod nibh
-                                        pretium. Etiam pulvinar tincidunt
-                                        dapibus. Quisque sollicitudin, mauris a
-                                        consequat consectetur, turpis nisl
-                                        sollicitudin enim, id consectetur neque
-                                        neque nec metus. Pellentesque dolor
-                                        nisi, vulputate quis lobortis ac,
-                                        tincidunt et quam. Mauris pulvinar
-                                        blandit nisi nec mattis. Aliquam
-                                        accumsan ut sem eget efficitur. Vivamus
-                                        in tortor gravida eros laoreet
-                                        condimentum nec vel dui. Nullam quam
-                                        massa, ultrices eget tincidunt a,
-                                        pulvinar ac libero.
-                                    </p>
-                                </v-card-text>
-                            </v-col>
-                            <v-col cols="6">
-                                <v-card-text class="px-0">
-                                    <v-img
-                                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Computer_icon.png/640px-Computer_icon.png"
-                                        contain
-                                        aspect-ratio="2.5"
-                                    ></v-img>
-                                </v-card-text>
-                            </v-col>
-                        </v-row>
-                    </v-card>
-                </v-row>
+    <v-container class="FeaturesContent">
+        <v-container grid-list-lg>
+            <v-card dark color="rgb(52, 73, 94)" class="pa-4" flat>
+                <v-layout column>
+                    <v-flex
+                            class="display-2 font-weight-white white--text text-xs-center my-5"
+                    >Features</v-flex
+                    >
+                    <v-flex>
+                        <div class="headline mt-3 white--text font-weight-bold">
+                            Lorem ipsum
+                        </div>
+                        <p class="subheading mt-3">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing
+                            elit. Cras pulvinar risus quis mauris interdum, in
+                            euismod nibh pretium. Etiam pulvinar tincidunt
+                            dapibus. Quisque sollicitudin, mauris a consequat
+                            consectetur, turpis nisl sollicitudin enim, id
+                            consectetur neque neque nec metus. Pellentesque
+                            dolor nisi, vulputate quis lobortis ac, tincidunt et
+                            quam. Mauris pulvinar blandit nisi nec mattis.
+                            Aliquam accumsan ut sem eget efficitur. Vivamus in
+                            tortor gravida eros laoreet condimentum nec vel dui.
+                            Nullam quam massa, ultrices eget tincidunt a,
+                            pulvinar ac libero.
+                        </p>
+                    </v-flex>
+                    <v-flex>
+                        <div class="headline mt-3 white--text font-weight-bold">
+                            Lorem ipsum
+                        </div>
+                        <p class="subheading mt-3">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing
+                            elit. Cras pulvinar risus quis mauris interdum, in
+                            euismod nibh pretium. Etiam pulvinar tincidunt
+                            dapibus. Quisque sollicitudin, mauris a consequat
+                            consectetur, turpis nisl sollicitudin enim, id
+                            consectetur neque neque nec metus. Pellentesque
+                            dolor nisi, vulputate quis lobortis ac, tincidunt et
+                            quam. Mauris pulvinar blandit nisi nec mattis.
+                            Aliquam accumsan ut sem eget efficitur. Vivamus in
+                            tortor gravida eros laoreet condimentum nec vel dui.
+                            Nullam quam massa, ultrices eget tincidunt a,
+                            pulvinar ac libero.
+                        </p>
 
-                <v-row class="pa-1">
-                    <v-card color="rgb(52, 73, 94)" flat>
-                        <v-row>
-                            <v-col cols="6">
-                                <v-card-text class="px-0">
-                                    <v-img
-                                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Computer_icon.png/640px-Computer_icon.png"
-                                        contain
-                                        aspect-ratio="2.5"
-                                    ></v-img>
-                                </v-card-text>
-                            </v-col>
-                            <v-col cols="6">
-                                <v-card-text class="px-0 white--text">
-                                    <div
-                                        class="headline pa-2 mt-3 white--text font-weight-bold"
-                                    >
-                                        Lorem ipsum
-                                    </div>
-                                    <p class="subheading mt-3 pa-3">
-                                        Lorem ipsum dolor sit amet, consectetur
-                                        adipiscing elit. Cras pulvinar risus
-                                        quis mauris interdum, in euismod nibh
-                                        pretium. Etiam pulvinar tincidunt
-                                        dapibus. Quisque sollicitudin, mauris a
-                                        consequat consectetur, turpis nisl
-                                        sollicitudin enim, id consectetur neque
-                                        neque nec metus. Pellentesque dolor
-                                        nisi, vulputate quis lobortis ac,
-                                        tincidunt et quam. Mauris pulvinar
-                                        blandit nisi nec mattis. Aliquam
-                                        accumsan ut sem eget efficitur. Vivamus
-                                        in tortor gravida eros laoreet
-                                        condimentum nec vel dui. Nullam quam
-                                        massa, ultrices eget tincidunt a,
-                                        pulvinar ac libero.
-                                    </p>
-                                </v-card-text>
-                            </v-col>
-                        </v-row>
-                    </v-card>
-                </v-row>
-            </v-layout>
+                        <p class="subheading mt-3">
+                            Nullam nec massa eu est fringilla lobortis. Praesent
+                            in enim in justo blandit varius. Cras placerat arcu
+                            in sapien rhoncus aliquet. Sed interdum tortor et
+                            tincidunt condimentum. Etiam consequat mi leo, in
+                            suscipit odio scelerisque molestie. Nam et purus
+                            consequat, iaculis augue vel, sagittis ligula.
+                            Vestibulum aliquet vulputate erat. Phasellus id
+                            mauris mauris. Nunc a maximus dolor. Curabitur ut
+                            vestibulum arcu. Curabitur non lacus justo. Cras
+                            varius a magna in semper. Nulla eros ante,
+                            consectetur faucibus sapien eu, rhoncus imperdiet
+                            dui. Sed viverra iaculis nunc, id pulvinar massa
+                            egestas vitae.
+                        </p>
+
+                        <p class="subheading mt-3">
+                            Aenean erat metus, imperdiet eget nisl laoreet,
+                            venenatis ultricies ante. In interdum ante vel
+                            dictum ullamcorper. Pellentesque habitant morbi
+                            tristique senectus et netus et malesuada fames ac
+                            turpis egestas. Integer sit amet gravida diam.
+                            Aliquam in tempor metus. Fusce pellentesque pharetra
+                            sem, et luctus justo tempor dictum. Ut feugiat est
+                            sed tristique egestas. Nullam posuere a nunc in
+                            blandit. Vestibulum ante ipsum primis in faucibus
+                            orci luctus et ultrices posuere cubilia Curae;
+                            Suspendisse laoreet ultrices eros, nec malesuada
+                            enim semper sit amet. Maecenas efficitur consectetur
+                            accumsan. Etiam in aliquam turpis, ut pharetra
+                            nulla. Vestibulum malesuada, nulla id elementum
+                            cursus, nibh dui rhoncus felis, suscipit mattis
+                            felis enim sed ex. Pellentesque scelerisque aliquam
+                            lorem, vel mattis nibh tincidunt ac. Suspendisse ac
+                            nibh sit amet lacus ullamcorper maximus.
+                        </p>
+                    </v-flex>
+                    <v-flex>
+                        <div class="headline mt-3 white--text font-weight-bold">
+                            Lorem ipsum
+                        </div>
+                        <p class="subheading mt-3">
+                            Nullam nec massa eu est fringilla lobortis. Praesent
+                            in enim in justo blandit varius. Cras placerat arcu
+                            in sapien rhoncus aliquet. Sed interdum tortor et
+                            tincidunt condimentum. Etiam consequat mi leo, in
+                            suscipit odio scelerisque molestie. Nam et purus
+                            consequat, iaculis augue vel, sagittis ligula.
+                            Vestibulum aliquet vulputate erat. Phasellus id
+                            mauris mauris. Nunc a maximus dolor. Curabitur ut
+                            vestibulum arcu. Curabitur non lacus justo. Cras
+                            varius a magna in semper. Nulla eros ante,
+                            consectetur faucibus sapien eu, rhoncus imperdiet
+                            dui. Sed viverra iaculis nunc, id pulvinar massa
+                            egestas vitae.
+                            Nullam nec massa eu est fringilla lobortis. Praesent
+                            in enim in justo blandit varius. Cras placerat arcu
+                            in sapien rhoncus aliquet. Sed interdum tortor et
+                            tincidunt condimentum. Etiam consequat mi leo, in
+                            suscipit odio scelerisque molestie. Nam et purus
+                            consequat, iaculis augue vel, sagittis ligula.
+                            Vestibulum aliquet vulputate erat. Phasellus id
+                            mauris mauris. Nunc a maximus dolor. Curabitur ut
+                            vestibulum arcu. Curabitur non lacus justo. Cras
+                            varius a magna in semper. Nulla eros ante,
+                            consectetur faucibus sapien eu, rhoncus imperdiet
+                            dui. Sed viverra iaculis nunc, id pulvinar massa
+                            egestas vitae.Nullam nec massa eu est fringilla lobortis. Praesent
+                            in enim in justo blandit varius. Cras placerat arcu
+                            in sapien rhoncus aliquet. Sed interdum tortor et
+                            tincidunt condimentum. Etiam consequat mi leo, in
+                            suscipit odio scelerisque molestie. Nam et purus
+                            consequat, iaculis augue vel, sagittis ligula.
+                            Vestibulum aliquet vulputate erat. Phasellus id
+                            mauris mauris. Nunc a maximus dolor. Curabitur ut
+                            vestibulum arcu. Curabitur non lacus justo. Cras
+                            varius a magna in semper. Nulla eros ante,
+                            consectetur faucibus sapien eu, rhoncus imperdiet
+                            dui. Sed viverra iaculis nunc, id pulvinar massa
+                            egestas vitae.Nullam nec massa eu est fringilla lobortis. Praesent
+                            in enim in justo blandit varius. Cras placerat arcu
+                            in sapien rhoncus aliquet. Sed interdum tortor et
+                            tincidunt condimentum. Etiam consequat mi leo, in
+                            suscipit odio scelerisque molestie. Nam et purus
+                            consequat, iaculis augue vel, sagittis ligula.
+                            Vestibulum aliquet vulputate erat. Phasellus id
+                            mauris mauris. Nunc a maximus dolor. Curabitur ut
+                            vestibulum arcu. Curabitur non lacus justo. Cras
+                            varius a magna in semper. Nulla eros ante,
+                            consectetur faucibus sapien eu, rhoncus imperdiet
+                            dui. Sed viverra iaculis nunc, id pulvinar massa
+                            egestas vitae.Nullam nec massa eu est fringilla lobortis. Praesent
+                            in enim in justo blandit varius. Cras placerat arcu
+                            in sapien rhoncus aliquet. Sed interdum tortor et
+                            tincidunt condimentum. Etiam consequat mi leo, in
+                            suscipit odio scelerisque molestie. Nam et purus
+                            consequat, iaculis augue vel, sagittis ligula.
+                            Vestibulum aliquet vulputate erat. Phasellus id
+                            mauris mauris. Nunc a maximus dolor. Curabitur ut
+                            vestibulum arcu. Curabitur non lacus justo. Cras
+                            varius a magna in semper. Nulla eros ante,
+                            consectetur faucibus sapien eu, rhoncus imperdiet
+                            dui. Sed viverra iaculis nunc, id pulvinar massa
+                            egestas vitae.
+
+
+
+                        </p>
+                    </v-flex>
+                </v-layout>
+            </v-card>
         </v-container>
     </v-container>
 </template>
 
 <script>
-export default {
-    name: 'FeaturesContent'
-};
+    export default {
+        name: 'UsageContent',
+        components: {}
+    };
 </script>
 
 <style scoped>
-.FeaturesContent {
-    background-color: rgb(52, 73, 94);
-}
 </style>

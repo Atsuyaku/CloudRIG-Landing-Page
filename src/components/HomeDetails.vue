@@ -1,110 +1,23 @@
 <template>
-    <v-card color="white" flat>
-        <v-container fluid>
+    <v-card color="white" flat style="border-radius:0px">
+        <v-container>
             <v-container grid-list-lg>
                 <v-layout column black--text>
-                    <v-flex
-                        class="display-2 font-weight-white black--text text-xs-center my-5"
-                        >About us</v-flex
+                    <v-row>
+                        <v-col class="display-2 font-weight-white black--text text-md-center my-5">
+                            About us
+                        </v-col>
+                    </v-row
                     >
-                    <v-flex>
-                        <div
-                            class="headline mt-3 black--text font-weight-bold"
-                            id="down"
-                        >
-                            Lorem ipsum
-                        </div>
-                        <p class="subheading mt-3">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing
-                            elit. Cras pulvinar risus quis mauris interdum, in
-                            euismod nibh pretium. Etiam pulvinar tincidunt
-                            dapibus. Quisque sollicitudin, mauris a consequat
-                            consectetur, turpis nisl sollicitudin enim, id
-                            consectetur neque neque nec metus. Pellentesque
-                            dolor nisi, vulputate quis lobortis ac, tincidunt et
-                            quam. Mauris pulvinar blandit nisi nec mattis.
-                            Aliquam accumsan ut sem eget efficitur. Vivamus in
-                            tortor gravida eros laoreet condimentum nec vel dui.
-                            Nullam quam massa, ultrices eget tincidunt a,
-                            pulvinar ac libero.
+                    <v-row>
+                        <v-col offset="4" cols="4" align="center">
+                        <p class="text-h5 text-md-center" >
+                            cloudRIG is the cheapest way to use AWS + Parsec for game and other application streaming.
+                            When configured, it will set up the requisite AWS
+                            infrastructure for you to boot spot instances preloaded with Parsec.
                         </p>
-                    </v-flex>
-                    <v-flex>
-                        <div class="headline mt-3 black--text font-weight-bold">
-                            Lorem ipsum
-                        </div>
-                        <p class="subheading mt-3">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing
-                            elit. Cras pulvinar risus quis mauris interdum, in
-                            euismod nibh pretium. Etiam pulvinar tincidunt
-                            dapibus. Quisque sollicitudin, mauris a consequat
-                            consectetur, turpis nisl sollicitudin enim, id
-                            consectetur neque neque nec metus. Pellentesque
-                            dolor nisi, vulputate quis lobortis ac, tincidunt et
-                            quam. Mauris pulvinar blandit nisi nec mattis.
-                            Aliquam accumsan ut sem eget efficitur. Vivamus in
-                            tortor gravida eros laoreet condimentum nec vel dui.
-                            Nullam quam massa, ultrices eget tincidunt a,
-                            pulvinar ac libero.
-                        </p>
-
-                        <p class="subheading mt-3">
-                            Nullam nec massa eu est fringilla lobortis. Praesent
-                            in enim in justo blandit varius. Cras placerat arcu
-                            in sapien rhoncus aliquet. Sed interdum tortor et
-                            tincidunt condimentum. Etiam consequat mi leo, in
-                            suscipit odio scelerisque molestie. Nam et purus
-                            consequat, iaculis augue vel, sagittis ligula.
-                            Vestibulum aliquet vulputate erat. Phasellus id
-                            mauris mauris. Nunc a maximus dolor. Curabitur ut
-                            vestibulum arcu. Curabitur non lacus justo. Cras
-                            varius a magna in semper. Nulla eros ante,
-                            consectetur faucibus sapien eu, rhoncus imperdiet
-                            dui. Sed viverra iaculis nunc, id pulvinar massa
-                            egestas vitae.
-                        </p>
-
-                        <p class="subheading mt-3">
-                            Aenean erat metus, imperdiet eget nisl laoreet,
-                            venenatis ultricies ante. In interdum ante vel
-                            dictum ullamcorper. Pellentesque habitant morbi
-                            tristique senectus et netus et malesuada fames ac
-                            turpis egestas. Integer sit amet gravida diam.
-                            Aliquam in tempor metus. Fusce pellentesque pharetra
-                            sem, et luctus justo tempor dictum. Ut feugiat est
-                            sed tristique egestas. Nullam posuere a nunc in
-                            blandit. Vestibulum ante ipsum primis in faucibus
-                            orci luctus et ultrices posuere cubilia Curae;
-                            Suspendisse laoreet ultrices eros, nec malesuada
-                            enim semper sit amet. Maecenas efficitur consectetur
-                            accumsan. Etiam in aliquam turpis, ut pharetra
-                            nulla. Vestibulum malesuada, nulla id elementum
-                            cursus, nibh dui rhoncus felis, suscipit mattis
-                            felis enim sed ex. Pellentesque scelerisque aliquam
-                            lorem, vel mattis nibh tincidunt ac. Suspendisse ac
-                            nibh sit amet lacus ullamcorper maximus.
-                        </p>
-                    </v-flex>
-                    <v-flex>
-                        <div class="headline mt-3 black--text font-weight-bold">
-                            Lorem ipsum
-                        </div>
-                        <p class="subheading mt-3">
-                            Nullam nec massa eu est fringilla lobortis. Praesent
-                            in enim in justo blandit varius. Cras placerat arcu
-                            in sapien rhoncus aliquet. Sed interdum tortor et
-                            tincidunt condimentum. Etiam consequat mi leo, in
-                            suscipit odio scelerisque molestie. Nam et purus
-                            consequat, iaculis augue vel, sagittis ligula.
-                            Vestibulum aliquet vulputate erat. Phasellus id
-                            mauris mauris. Nunc a maximus dolor. Curabitur ut
-                            vestibulum arcu. Curabitur non lacus justo. Cras
-                            varius a magna in semper. Nulla eros ante,
-                            consectetur faucibus sapien eu, rhoncus imperdiet
-                            dui. Sed viverra iaculis nunc, id pulvinar massa
-                            egestas vitae.
-                        </p>
-                    </v-flex>
+                        </v-col>
+                    </v-row>
                 </v-layout>
             </v-container>
         </v-container>
@@ -117,4 +30,5 @@ export default {
 };
 </script>
 
-<style scoped></style>
+<style >
+</style>

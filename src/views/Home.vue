@@ -1,17 +1,29 @@
 <template>
-    <span>
-        <home-hero></home-hero>
+    <div>
+        <div class="home-hero"><home-hero></home-hero></div>
+
         <home-details></home-details>
-        <Footer></Footer>
-    </span>
+    </div>
 </template>
 
 <script>
 import HomeHero from '../components/HomeHero';
 import HomeDetails from '../components/HomeDetails';
-import Footer from '../components/Footer';
+
 export default {
     name: 'Home',
-    components: { Footer, HomeDetails, HomeHero }
+    components: {HomeDetails, HomeHero }
 };
 </script>
+
+<style>
+    .home-hero {
+        background-image: url("../assets/cloud.png");
+        background-position-x: 50%;
+        background-position-y: 100%;
+        background-repeat-y: no-repeat;
+        background-repeat-x: repeat;
+        width: 100%;
+        height: 100%;
+    }
+</style>

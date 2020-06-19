@@ -1,5 +1,5 @@
 <template>
-    <v-container fluid class="PricingContent">
+    <v-container class="PricingContent">
         <v-container grid-list-lg>
             <v-card dark color="rgb(52, 73, 94)" class="pa-4" flat>
                 <v-layout column>
@@ -116,7 +116,4 @@ export default {
 </script>
 
 <style scoped>
-.PricingContent {
-    background-color: rgb(52, 73, 94);
-}
 </style>
