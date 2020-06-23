@@ -15,13 +15,11 @@ jobs:
         uses: actions/setup-node@v1
         with:
           node-version: 12
-
-      # ESLint and Prettier must be in `package.json`
+`
       - name: Install Node.js dependencies
-        run: npm install
+        run: npm ci
 
       - name: Run linters
-        uses: CloudRIG-Landing-Page/lint-action@v1
+        run: prettier --check "src/views/*.vue" "src/components/*.vue" "src/*.vue"
         with:
-          eslint: true
           prettier: true
