@@ -1,45 +1,36 @@
 <template>
-    <v-container fill-height class="home-hero" style="max-height: 100vh;">
+    <v-container fill-height class="home-hero">
         <v-layout justify-center align-center column pa-10>
 
             <v-row no-gutters align="center">
-                <v-col offset="2" cols="1">
-                    <v-img
-                        min-height="300px"
-                        min-width="300px"
-                        contain
-                        src="https://www.cloudrig.io/img/cloudrig-logo.png"
-                    ></v-img>
-                    <v-col></v-col>
+                <v-col>
+                    <div style="max-width:400px;"
+                            class="text-center"
+                    >
+                        <v-img
+                            contain
+                            src="https://www.cloudrig.io/img/cloudrig-logo.png"
+                        ></v-img>
+                    </div>
                 </v-col>
 
-                <v-col offset="3" cols="1">
+                <v-col>
                     <div
-                        class="display-4 font-weight-black white--text text-xs-center"
+                        class="display-4 font-weight-black white--text text-center "
                     >
                         CloudRIG
-                    </div>
-                    <div
-                        class="display-1 font-weight-bold white--text text-xs-center"
-                    >
-                        powered by
-                    </div>
-                    <div
-                        class="display-4 font-weight-black white--text text-xs-center"
-                    >
-                        parsec
                     </div>
                 </v-col>
             </v-row>
             <v-row>
-                <v-col cols="6">
+                <v-col>
                     <v-btn
                             class="text-h5 white--text" min-height="60" min-width="250" color="rgb(237,76,103)"
                             href="https://github.com/cloudrig/CloudRIG/releases"
                     ><i class="fa fa-download mr-3"></i>Download
                     </v-btn>
                 </v-col>
-                <v-col cols="6">
+                <v-col>
                     <router-link tag="span" to="/Usage">
                         <v-btn
 

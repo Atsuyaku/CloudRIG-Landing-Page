@@ -4,15 +4,33 @@ import Vue from 'vue' import Vuetify from 'vuetify/lib'
         <v-navigation-drawer
             app
             v-model="drawer"
-            class="blue-grey lighten-2"
+            color="rgb(44, 62, 80)"
             dark
             disable-resize-watcher
 
         >
             <v-list>
-                <template v-for="(item, index) in items">
-                    <v-divider :key="`divider-${index}`"></v-divider>
-                </template>
+
+                <router-link tag="span" to="/Features"
+                ><v-btn text
+                >FEATURES</v-btn
+                ></router-link
+                > <br>
+
+                <router-link tag="span" to="/Pricing"
+                ><v-btn text
+                >PRICING</v-btn
+                ></router-link
+                >
+                <br>
+
+                <router-link tag="span" to="/Usage"
+                ><v-btn text
+                >USAGE</v-btn
+                ></router-link
+                >
+
+
             </v-list>
         </v-navigation-drawer>
         <v-toolbar color="rgb(44, 62, 80)" dark>
@@ -20,6 +38,8 @@ import Vue from 'vue' import Vuetify from 'vuetify/lib'
                 class="hidden-md-and-up"
                 @click="drawer = !drawer"
             >
+
+
             </v-app-bar-nav-icon>
 
             <v-spacer class="hidden-md-and-up"></v-spacer>
@@ -75,9 +95,9 @@ export default {
             appTitle: 'CloudRIG',
             drawer: false,
             items: [
-                { title: 'Menu' },
-                { title: 'Sign in' },
-                { title: 'Register' }
+                { title: 'Features', url: '/Features' },
+                { title: 'Pricing', url: '/Pricing' },
+                { title: 'Usage', url: '/Usage' }
             ]
         };
     }
