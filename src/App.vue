@@ -9,9 +9,8 @@
 </template>
 
 <script>
-
 import AppNavigation from '@/components/AppNavigation';
-import Footer from "./components/Footer";
+import Footer from './components/Footer';
 export default {
     name: 'App',
     components: {
@@ -22,7 +21,7 @@ export default {
 </script>
 
 <style>
-    #app{
-        background-color: rgb(52, 73, 94);
-        }
+#app {
+    background-color: rgb(52, 73, 94);
+}
 </style>

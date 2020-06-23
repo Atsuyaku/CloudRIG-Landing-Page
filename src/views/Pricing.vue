@@ -8,7 +8,7 @@
 import PricingContent from '../components/PricingContent';
 export default {
     name: 'Pricing',
-    components: { PricingContent}
+    components: { PricingContent }
 };
 </script>
 

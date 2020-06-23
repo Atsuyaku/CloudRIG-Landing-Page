@@ -8,6 +8,6 @@
 import FeaturesContent from '../components/FeaturesContent';
 export default {
     name: 'Features',
-    components: {FeaturesContent }
+    components: { FeaturesContent }
 };
 </script>

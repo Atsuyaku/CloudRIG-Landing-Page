@@ -8,6 +8,6 @@
 import HomeDetails from '../components/HomeDetails';
 export default {
     name: 'About',
-    components: {HomeDetails }
+    components: { HomeDetails }
 };
 </script>

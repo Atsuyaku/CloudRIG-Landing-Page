@@ -1,17 +1,15 @@
 <template>
-        <span>
+    <span>
         <UsageContent></UsageContent>
     </span>
 </template>
 
 <script>
-    import UsageContent from "../components/UsageContent";
-    export default {
-        name: "Usage",
-        components: {UsageContent}
-    }
+import UsageContent from '../components/UsageContent';
+export default {
+    name: 'Usage',
+    components: { UsageContent }
+};
 </script>
 
-<style scoped>
-
-</style>
+<style scoped></style>

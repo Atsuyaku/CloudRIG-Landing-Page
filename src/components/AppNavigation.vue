@@ -7,30 +7,21 @@ import Vue from 'vue' import Vuetify from 'vuetify/lib'
             color="rgb(44, 62, 80)"
             dark
             disable-resize-watcher
-
         >
             <v-list>
-
                 <router-link tag="span" to="/Features"
-                ><v-btn text
-                >FEATURES</v-btn
-                ></router-link
-                > <br>
+                    ><v-btn text>FEATURES</v-btn></router-link
+                >
+                <br />
 
                 <router-link tag="span" to="/Pricing"
-                ><v-btn text
-                >PRICING</v-btn
-                ></router-link
+                    ><v-btn text>PRICING</v-btn></router-link
                 >
-                <br>
+                <br />
 
                 <router-link tag="span" to="/Usage"
-                ><v-btn text
-                >USAGE</v-btn
-                ></router-link
+                    ><v-btn text>USAGE</v-btn></router-link
                 >
-
-
             </v-list>
         </v-navigation-drawer>
         <v-toolbar color="rgb(44, 62, 80)" dark>
@@ -38,8 +29,6 @@ import Vue from 'vue' import Vuetify from 'vuetify/lib'
                 class="hidden-md-and-up"
                 @click="drawer = !drawer"
             >
-
-
             </v-app-bar-nav-icon>
 
             <v-spacer class="hidden-md-and-up"></v-spacer>
@@ -62,9 +51,9 @@ import Vue from 'vue' import Vuetify from 'vuetify/lib'
             >
 
             <router-link tag="span" to="/Usage"
-            ><v-btn text class="hidden-sm-and-down "
-            >USAGE</v-btn
-            ></router-link
+                ><v-btn text class="hidden-sm-and-down "
+                    >USAGE</v-btn
+                ></router-link
             >
             <v-btn text color="rgb(44, 62, 80)">
                 <v-icon large color="white">
@@ -72,8 +61,11 @@ import Vue from 'vue' import Vuetify from 'vuetify/lib'
                 </v-icon>
             </v-btn>
 
-
-            <v-btn text color="rgb(44, 62, 80)" href="https://github.com/cloudrig/CloudRIG">
+            <v-btn
+                text
+                color="rgb(44, 62, 80)"
+                href="https://github.com/cloudrig/CloudRIG"
+            >
                 <v-icon large color="white">
                     fab fa-github
                 </v-icon>
@@ -107,7 +99,6 @@ export default {
 <style scoped>
 span {
     text-decoration: none;
-
 }
 .v-btn {
     text-transform: none;
