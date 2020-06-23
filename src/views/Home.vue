@@ -1,7 +1,6 @@
 <template>
     <div>
         <div class="home-hero"><home-hero></home-hero></div>
-
         <home-details></home-details>
     </div>
 </template>
