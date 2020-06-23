@@ -46,7 +46,7 @@
                                         consequat consectetur, turpis nisl
                                         sollicitudin enim, id consectetur neque
                                         neque nec metus. Pellentesque dolor
-                                        nisi, vulputate quis lobortis ac, ti
+                                        nisi, vulputate quis lobortis ac
                                     </p>
                                 </v-card-text>
                             </v-col>
