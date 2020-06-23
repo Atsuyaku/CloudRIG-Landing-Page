@@ -18,7 +18,7 @@ export default {
 
 <style>
 .home-hero {
-    background-image: url('../assets/logo.png');
+    background-image: url('../assets/cloud.png');
     background-position-x: 50%;
     background-position-y: 100%;
     background-repeat-y: no-repeat;
