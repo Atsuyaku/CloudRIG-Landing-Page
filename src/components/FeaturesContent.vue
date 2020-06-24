@@ -4,10 +4,10 @@
             <v-card dark color="rgb(52, 73, 94)" class="pa-4" flat>
                 <v-layout column>
                     <v-flex
-                        class="display-2 font-weight-white white--text text-xs-center my-5"
+                            class="display-2 font-weight-white white--text text-xs-center my-5"
                         >Features</v-flex
                     >
-                    <v-flex>
+                      <v-flex>
                         <p class="text-h5 mt-3">
                             Stream games and applications for approx. $0.13/hr
                             <br /><br />

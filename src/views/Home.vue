@@ -5,12 +5,12 @@
     </div>
 </template>
 
-<script>
+        <script>
 import HomeHero from '../components/HomeHero';
 import HomeDetails from '../components/HomeDetails';
 
 export default {
-    name: 'Home',
+      name: 'Home',
     components: { HomeDetails, HomeHero }
 };
 </script>
@@ -19,7 +19,7 @@ export default {
 .home-hero {
     background-image: url('../assets/cloud.png');
     background-position-x: 50%;
-    background-position-y: 100%;
+            background-position-y: 100%;
     background-repeat-y: no-repeat;
     background-repeat-x: repeat;
     width: 100%;
