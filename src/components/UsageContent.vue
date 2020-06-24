@@ -33,19 +33,19 @@
                             <v-col cols="6">
                                 <v-card-text class="px-0 white--text">
                                     <div
-                                         class="headline pa-2 mt-3 white--text font-weight-bold"
+                                        class="headline pa-2 mt-3 white--text font-weight-bold"
                                     >
-                                         Lorem ipsum
+                                        Lorem ipsum
                                     </div>
-                                      <p class="subheading mt-3 pa-3">
+                                    <p class="subheading mt-3 pa-3">
                                         Lorem ipsum dolor sit amet, consectetur
-                                           adipiscing elit. Cras pulvinar risus
+                                        adipiscing elit. Cras pulvinar risus
                                         quis mauris interdum, in euismod nibh
-                                                pretium. Etiam pulvinar tincidunt
+                                        pretium. Etiam pulvinar tincidunt
                                         dapibus. Quisque sollicitudin, mauris a
                                         consequat consectetur, turpis nisl
                                         sollicitudin enim, id consectetur neque
-                                           neque nec metus. Pellentesque nisi,
+                                        neque nec metus. Pellentesque nisi,
                                         vulputate quis lobortis ac
                                     </p>
                                 </v-card-text>

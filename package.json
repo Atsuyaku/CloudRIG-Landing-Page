@@ -6,7 +6,7 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "eslint:github-action": "eslint src/"
+    "eslint:github-action": "eslint src/**/*.vue"
   },
   "dependencies": {
     "@babel/polyfill": "^7.4.4",
