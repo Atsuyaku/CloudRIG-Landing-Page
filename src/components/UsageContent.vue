@@ -23,12 +23,12 @@
                                     <v-carousel-item
                                         max-width="700"
                                         v-for="(item, i) in items"
-                                        :key="i"
-                                        :src="item.src"
-                                        reverse-transition="fade-transition"
-                                        transition="fade-transition"
+                                             :key="i"
+                                          :src="item.src"
+                                            reverse-transition="fade-transition"
+                                         transition="fade-transition"
                                     ></v-carousel-item>
-                                </v-carousel>
+                                    </v-carousel>
                             </v-col>
                             <v-col cols="6">
                                 <v-card-text class="px-0 white--text">
