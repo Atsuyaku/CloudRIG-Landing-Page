@@ -5,7 +5,7 @@
             <router-view></router-view>
         </v-main>
         <Footer></Footer>
-    </v-app>
+            </v-app>
 </template>
 
 <script>
