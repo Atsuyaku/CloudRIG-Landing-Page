@@ -1,0 +1,33 @@
+name: Lint
+
+on: [push]
+
+jobs:
+  lint:
+    runs-on: windows-latest
+    name: ESLint checker
+
+    strategy:
+      matrix:
+        node-version: ['12.*']
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v1
+        with:
+          fetch-depth: 1
+
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v1
+        with:
+          node-version: ${{ matrix.node-version }}
+
+      - name: npm install
+        run: npm ci --ignore-scripts
+
+      - name: Run ESLint
+        uses: ./
+        with:
+          eslint-config-path: ".eslintrc.json"
+          custom-directory: "./"
+          repo-token: ${{secrets.GITHUB_TOKEN}}
