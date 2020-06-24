@@ -9,15 +9,15 @@
                     >
                     <v-flex>
                         <p class="text-h5 mt-3">
-                                Stream games and applications for approx. $0.13/hr
-                               <br /><br />
-                                  Schedule shut down for the end of the current
-                                      billing hour (AWS charges by the hour)<br /><br />
-                                  2 minute termination warning overlay<br /><br />
-                              Auto-saves your rig when you stop or are booted
+                            Stream games and applications for approx. $0.13/hr
+                            <br /><br />
+                            Schedule shut down for the end of the current
+                            billing hour (AWS charges by the hour)<br /><br />
+                            2 minute termination warning overlay<br /><br />
+                            Auto-saves your rig when you stop or are booted
                             off<br /><br />
-                             Attach, extend a separate game drive<br /><br />
-                             Choose either g2.2xlarge and g3.4xlarge instance
+                            Attach, extend a separate game drive<br /><br />
+                            Choose either g2.2xlarge and g3.4xlarge instance
                             types
                         </p>
                     </v-flex>
