@@ -15,11 +15,9 @@ jobs:
         uses: actions/setup-node@v1
         with:
           node-version: 12
-`
+
       - name: Install Node.js dependencies
         run: npm ci
 
       - name: Run linters
         run: prettier --check "src/views/*.vue" "src/components/*.vue" "src/*.vue"
-        with:
-          prettier: true
