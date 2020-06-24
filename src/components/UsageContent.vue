@@ -45,7 +45,7 @@
                                         dapibus. Quisque sollicitudin, mauris a
                                         consequat consectetur, turpis nisl
                                         sollicitudin enim, id consectetur neque
-                                        neque nec metus. Pellentesque dolor
+                                        neque nec metus. Pellentesque
                                         nisi, vulputate quis lobortis ac
                                     </p>
                                 </v-card-text>
