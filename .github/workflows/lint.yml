@@ -28,9 +28,6 @@ jobs:
       - name: Install Eslint
         run: npm install eslint 
             
-      - name: Run ESLint
-        uses: ./
-        with:
-          eslint-config-path: ".eslintrc.json"
-          custom-directory: "./"
-          repo-token: ${{secrets.GITHUB_TOKEN}}
+      - name: run eslint
+        run: npm run lint
+
