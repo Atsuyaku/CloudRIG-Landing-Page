@@ -21,8 +21,8 @@ jobs:
          npm install prettier
          
       - name: Install prettier
-        run: npm install prettier
+        run: npm install --save-dev prettier prettier-check
          
 
       - name: Run linters
-        run: npm prettier --check "src/views/*.vue" "src/components/*.vue" "src/*.vue"
+        run: prettier-check --single-quote --trailing-comma es5 "src/views/*.vue" "src/components/*.vue" "src/*.vue"
