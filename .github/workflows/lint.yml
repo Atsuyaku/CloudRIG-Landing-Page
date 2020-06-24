@@ -1,27 +1,33 @@
 name: Lint
 
-on: push
+on: [pull_request]
 
 jobs:
-  run-linters:
-    name: Run linters
+  lint:
     runs-on: windows-latest
+    name: ESLint checker
+
+    strategy:
+      matrix:
+        node-version: ['12.*']
 
     steps:
-      - name: Check out Git repository
-        uses: actions/checkout@v2
+      - name: Checkout
+        uses: actions/checkout@v1
+        with:
+          fetch-depth: 1
 
-      - name: Set up Node.js
+      - name: Use Node.js ${{ matrix.node-version }}
         uses: actions/setup-node@v1
         with:
-          node-version: 12
+          node-version: ${{ matrix.node-version }}
 
-      # ESLint and Prettier must be in `package.json`
-      - name: Install Node.js dependencies
-        run: npm ci
+      - name: npm install
+        run: npm ci --ignore-scripts
 
-      - name: Run linters
-        uses: samuelmeuli/lint-action@v1
+      - name: Run ESLint
+        uses: ./
         with:
-          eslint: true
-          prettier: true
+          eslint-config-path: ".eslintrc.json"
+          custom-directory: "./"
+          repo-token: ${{secrets.GITHUB_TOKEN}}
