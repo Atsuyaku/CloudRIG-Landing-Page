@@ -38,7 +38,6 @@
     "vue-template-compiler": "^2.6.11"
   },
   "eslintConfig": {
-    "failOnError": true,
     "root": true,
     "env": {
       "node": true
@@ -51,7 +50,8 @@
     "parserOptions": {
       "parser": "babel-eslint"
     },
-    "rules": {}
+    "rules": {},
+    "failOnError": true
   },
   "prettier": {
     "tabWidth": 4,
