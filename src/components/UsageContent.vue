@@ -7,7 +7,6 @@
                         <v-card flat style="border-radius:0">
                             <div
                                 class="display-3 pa-2 mt-3 white--text font-weight-bold text-md-center"
-
                                 style="background-color: rgb(52, 73, 94)"
                             >
                                 Usage
