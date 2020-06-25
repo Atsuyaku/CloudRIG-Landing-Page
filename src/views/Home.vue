@@ -15,7 +15,7 @@ export default {
 };
 </script>
 
-<style>
+<sty    le>
 .home-hero {
     background-image: url('../assets/cloud.png');
     background-position-x: 50%;
