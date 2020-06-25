@@ -38,8 +38,8 @@
     "vue-template-compiler": "^2.6.11"
   },
   "eslintConfig": {
-    "root": true,
     "failOnError": true,
+    "root": true,
     "env": {
       "node": true
     },
@@ -50,8 +50,6 @@
     ],
     "parserOptions": {
       "parser": "babel-eslint"
-    },
-
     },
     "rules": {}
   },
