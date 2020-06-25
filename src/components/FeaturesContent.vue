@@ -3,8 +3,8 @@
          <v-container grid-list-lg>
                    <v-card dark color="rgb(52, 73, 94)" class="pa-4" flat>
                       <v-layout column>
-                    <v-flex
-                        class="display-2 font-weight-white white--text text-xs-center my-5"
+                         <v-flex
+                                class="display-2 font-weight-white white--text text-xs-center my-5"
                         >Features</v-flex
                     >
                     <v-flex>
