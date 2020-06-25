@@ -4,10 +4,10 @@
             <v-layout column>
                 <v-row>
                     <v-col offset="4" cols="4">
-                        <v-card flat style="border-radius:0px">
+                        <v-card flat style="border-radius:0">
                             <div
                                 class="display-3 pa-2 mt-3 white--text font-weight-bold text-md-center"
-                                contain
+
                                 style="background-color: rgb(52, 73, 94)"
                             >
                                 Usage
@@ -22,13 +22,13 @@
                                 <v-carousel>
                                     <v-carousel-item
                                         max-width="700"
-                                        v-for="(item, i) in items"
-                                             :key="i"
-                                          :src="item.src"
-                                            reverse-transition="fade-transition"
-                                         transition="fade-transition"
+                                        v-for="(items, i) in items"
+                                        :key="i"
+                                        :src="items.src"
+                                        reverse-transition="fade-transition"
+                                        transition="fade-transition"
                                     ></v-carousel-item>
-                                    </v-carousel>
+                                </v-carousel>
                             </v-col>
                             <v-col cols="6">
                                 <v-card-text class="px-0 white--text">
