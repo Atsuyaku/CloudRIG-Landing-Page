@@ -39,6 +39,7 @@
   },
   "eslintConfig": {
     "root": true,
+    "failOnError": true,
     "env": {
       "node": true
     },
@@ -50,9 +51,9 @@
     "parserOptions": {
       "parser": "babel-eslint"
     },
-    "rules": {
-      "failOnError": true
-    }
+
+    },
+    "rules": {}
   },
   "prettier": {
     "tabWidth": 4,
