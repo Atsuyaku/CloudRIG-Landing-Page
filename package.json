@@ -50,8 +50,10 @@
     "parserOptions": {
       "parser": "babel-eslint"
     },
-    "rules": {},
-    "failOnError": true
+    "rules": {
+      "failOnError": true
+    }
+
   },
   "prettier": {
     "tabWidth": 4,
