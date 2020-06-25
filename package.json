@@ -51,7 +51,7 @@
       "parser": "babel-eslint"
     },
     "rules": {
-      "failOnError": 2
+      "strict": "error"
     }
 
   },
