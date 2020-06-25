@@ -15,9 +15,8 @@ jobs:
         node-version: 12
         
     - run: npm ci
-    - uses: eslint/github-action@v0
-      with:
-        files: src/
+    - run: eslint . --ext .vue
+      
     - run: npm run build --if-present
     - run: npm test
       env:
