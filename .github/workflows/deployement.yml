@@ -19,7 +19,16 @@ jobs:
     - run: npm test
       env:
         CI: true
-    - run: popd
+        
+    - name: push the build
+    - run: |
+        git config --local user.email ${{ secrets.MAIL_GIT }}
+        git config --local user.name ${{ secrets.USERNAME_GIT }}
+        git commit -m "Add changes" -a
+    - name: Push changes
+      uses: ad-m/github-push-action@master
+      with:
+        github_token: ${{ secrets.PWD_GIT }}
         
     - name: Configure AWS Credentials
       uses: aws-actions/configure-aws-credentials@v1
