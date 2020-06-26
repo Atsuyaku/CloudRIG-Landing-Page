@@ -25,11 +25,8 @@ jobs:
         git config --global user.email ${{ secrets.MAIL_GIT }}
         git config --global user.name ${{ secrets.USERNAME_GIT }}
         git commit -m "Add changes" -a
-        
-    - name: Push changes
-      uses: ad-m/github-push-action@master
-      with:
-        github_token: ${{ secrets.PWD_GIT }}
+        git push
+
         
     - name: Configure AWS Credentials
       uses: aws-actions/configure-aws-credentials@v1
