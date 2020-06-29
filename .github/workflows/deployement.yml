@@ -20,14 +20,6 @@ jobs:
       env:
         CI: true
         
-    - name: push the build
-      run: |
-        git config --global user.email ${{ secrets.MAIL_GIT }}
-        git config --global user.name ${{ secrets.USERNAME_GIT }}
-        git commit -m "Add changes" -a
-        git push
-
-        
     - name: Configure AWS Credentials
       uses: aws-actions/configure-aws-credentials@v1
       with:
@@ -37,5 +29,5 @@ jobs:
         
     - name: Copy files to the test website with the AWS CLI
       run: |
-        aws s3 sync ./dist s3://test.cloudrig.io
+        aws s3 sync /dist s3://test.cloudrig.io
     
