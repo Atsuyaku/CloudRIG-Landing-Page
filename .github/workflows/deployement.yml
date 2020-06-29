@@ -19,7 +19,6 @@ jobs:
     - run: npm test
       env:
         CI: true
-    - run: popd
         
     - name: Configure AWS Credentials
       uses: aws-actions/configure-aws-credentials@v1
