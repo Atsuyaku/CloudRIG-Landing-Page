@@ -22,8 +22,7 @@
                             quam. Mauris pulvinar blandit nisi nec mattis.
                             Aliquam accumsan ut sem eget efficitur. Vivamus in
                             tortor gravida eros laoreet condimentum nec vel dui.
-                            Nullam quam massa, ultrices eget tincidunt a,
-                            pulvinar.
+                            Nullam quam massa, ultrices eget tincidunt.
                         </p>
                     </v-flex>
                     <v-flex>
