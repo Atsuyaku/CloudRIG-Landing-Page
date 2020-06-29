@@ -41,7 +41,7 @@
                             Aliquam accumsan ut sem eget efficitur. Vivamus in
                             tortor gravida eros laoreet condimentum nec vel dui.
                             Nullam quam massa, ultrices eget tincidunt a,
-                            pulvinar ac libero.
+                            pulvinar.
                         </p>
 
                         <p class="subheading mt-3">
