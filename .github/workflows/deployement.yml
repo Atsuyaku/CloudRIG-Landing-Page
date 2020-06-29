@@ -29,5 +29,5 @@ jobs:
         
     - name: Copy files to the test website with the AWS CLI
       run: |
-        aws s3 sync /dist s3://test.cloudrig.io
+        aws s3 sync ./dist s3://test.cloudrig.io
     
