@@ -1,6 +1,9 @@
-name: Node.js CI
+name: Node.js CI test
 
-on: [push]
+on: 
+  push:
+    branches: 
+     -test
 
 jobs:
   build:
