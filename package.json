@@ -12,7 +12,7 @@
     "@babel/polyfill": "^7.4.4",
     "core-js": "^3.6.5",
     "eslint": "^7.3.1",
-    "node-sass": "^4.14.1",
+    "node-sass": "^7.0.0",
     "sass-loader": "^8.0.2",
     "typeface-roboto": "0.0.75",
     "vue": "^2.6.11",
